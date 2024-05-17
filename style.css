@@ -1,13 +1,277 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 
-*{
+* {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+body {
+    background-color: #03045e;
+}
+
+header {
+    background: #072ac8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 11px;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    padding: 10px;
+    color: white;
+   
+}
+
+ header:hover {
+    color: #758bfd;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+  margin-top: 39px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; 
+  background: white; 
+}
 .logo{
-    width: 200px;
+    width: 225px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+
+}
+
+option{
+    color: black;
+font-size: 10px;
+}
+
+a:hover
+{
+    text-decoration: underline #27187e;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width:60% ;
+    margin-top: 55px;
+    margin-left: 80px;
+    color: white;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+   
+    
+    
+}
+
+.principal{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px;
+    font-weight: 20px;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+
+span{
+    color: #00a6fb;
+}
+
+.ligue{
+    display: flex;
+   position: absolute;
+    margin-left: 800px;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 30px;
+   padding: 20px;
+   border-radius: 30px;
+  align-items: center;
+   background: linear-gradient( rgba(42,13,170,0.27494747899159666) 51%, rgba(5,172,203,0.4738270308123249) 93%);
+}
+
+.ligue:hover{
+color: #00a6fb;
+}
+.botoes{
+display: flex;
+flex-flow: row nowrap;
+gap: 100px;
+margin-left: 30px;
+margin-top: 10px;
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+color: white;
+cursor: pointer;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+ button:hover{
+   background:#00043a;
+
+ }
+.problemas-do-cliente ,.orçamento-foto , .tipo-de-serviços  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+.pia ,.processo-de-atendimento, .tipo-de-serviços{
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+
+}
+
+.imgs-problemas , .imgs-atendimentos{
+    margin-top: 20px;
+width: 350px;
+border-radius: 50%;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    margin: 20px;
+}
+
+article{
+    margin-bottom: 10px;
+}
+.tipo-de-serviços{
+    background: white;
+   
+  
+    
+
+}
+.paragrafos-diferentes{
+    color: #03045e;
+    margin-left:80px ;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.destaque, .efeito-de-botao{
+    font-size: 30px;
+   
+   
+}
+.efeito-de-botao{
+    background: linear-gradient(90deg, rgba(7,4,70,1) 0%, rgba(4,2,111,1) 57%, rgba(4,1,171,0.8939950980392157) 93%);
+    border-radius: 15px;
+    padding: 8px;
+
+}
+
+.link-estilo{
+    color: white;
+    text-decoration: none;
+}
+
+.whatsapp{
+height: 12%;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    display: flex;
+   justify-content: end;
+   width: 100wh;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    
+}
+
+.paragrafos-footer{
+    font-size: 22px;
+    color: white;
+}
+.destaque:hover {
+    color: #758bfd;
+}
+
+.pg-atendimento{
+    margin-top: 40px;
+    margin-left:80px ;
+    margin-right: 80px;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.button-personalizado{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+color: white;
+cursor: pointer;
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.button-personalizado:hover{
+  background:#00043a;
+
+}
+.mapas{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 50px;
+    justify-content: center;
+   
 }
