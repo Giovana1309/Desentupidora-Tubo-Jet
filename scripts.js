@@ -20,10 +20,10 @@ serviços.forEach ( lista => {
 
 <li>
 
-<img src=${lista.src}  >
+<img src=${lista.src}  class="desing-celular2" >
 <figcaption> ${lista.name}</figcaption>
-
-<p> ${lista.descriçao} </p>
+<br>
+<p class="modificaçao-responsivo"> ${lista.descriçao} </p>
 
 </li>
 `

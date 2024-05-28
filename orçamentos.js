@@ -19,10 +19,10 @@ orçamentos.forEach ( passos => {
 
 <li  class="LI2">
 
-<img src=${passos.src}  >
+<img src=${passos.src}   class="desing-celular" >
 <figcaption> ${passos.name}</figcaption>
-
-<p> ${passos.descriçao} </p>
+<br>
+<p class="modificaçao-responsivo"> ${passos.descriçao} </p>
 
 </li>
 `

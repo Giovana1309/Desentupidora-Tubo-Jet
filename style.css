@@ -25,144 +25,140 @@ header {
     top: -1px;
     padding: 10px;
     color: white;
-   
+
 }
 
- header:hover {
+header:hover {
     color: #758bfd;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
-  margin-top: 39px;
-  justify-content: center;
-  align-items: center;
-  gap: 25px; 
-  background: white; 
+    margin-top: 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.links{
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-}
-a{
-text-decoration: none;
-color: black;
-font-size: 20px;
-
+    gap: 15px;
 }
 
-option{
+a {
+    text-decoration: none;
     color: black;
-font-size: 10px;
+    font-size: 17px;
+
 }
 
-a:hover
-{
+a:hover {
     text-decoration: underline #27187e;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    width:60% ;
+    width: 90%;
     margin-top: 55px;
-    margin-left: 80px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
     margin-bottom: 50px;
     gap: 40px;
+
 }
 
-h1{
+h1 {
     text-transform: uppercase;
     color: white;
     margin-top: 10px;
-   
-    
-    
+
+
+
 }
 
-.logo{
-    width: 225px;
+.logo {
+    width: 200px;
 }
 
-.principal{
+.principal {
     text-transform: uppercase;
-    font-size: 50px;
-    text-shadow: 1px 1px 1px;
+    font-size: 40px;
     font-weight: 20px;
-}
-p{
-    font-size: 20px;
     color: white;
 }
 
-span{
+p {
+    font-size: 18px;
+    color: white;
+}
+
+.paragrafo-responsivo {
+    font-size: 25px;
+}
+
+span {
     color: #00a6fb;
 }
 
-.ligue{
-    display: flex;
-   position: absolute;
-    margin-left: 800px;
-    flex-direction: column;
-    gap: 20px;
-    font-size: 30px;
-    justify-content: center;
-   padding: 20px;
-   border-radius: 30px;
-   align-items: center;
- 
-   background: linear-gradient( rgba(42,13,170,0.27494747899159666) 51%, rgba(5,172,203,0.4738270308123249) 93%);
+
+
+
+.botoes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
-.ligue:hover{
-color: #00a6fb;
-}
-.botoes{
-display: flex;
-flex-flow: row nowrap;
-gap: 100px;
-margin-left: 30px;
-margin-top: 10px;
-}
-
-button{
+button {
     padding: 10px;
     font-size: 18px;
     text-transform: uppercase;
     border: none;
     border-radius: 25px;
-color: white;
-cursor: pointer;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-}
- button:hover{
-   background:#00043a;
-
- }
-
-.botao3{
     color: white;
+    cursor: pointer;
+
+    background: #072ac8;
 }
 
-.problemas-do-cliente ,.orçamento-foto , .tipo-de-serviços  {
+
+.botao3 {
+    color: white;
+    display: flex;
+
+}
+
+.problemas-do-cliente,
+.orçamento-foto,
+.tipo-de-serviços {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
-.processo-de-atendimento, .tipo-de-serviços{
-   
-   
+
+.processo-de-atendimento,
+.tipo-de-serviços {
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,166 +168,370 @@ cursor: pointer;
 
 
 }
-ul  {
+
+ul {
     list-style: none;
     display: grid;
-    grid-template-columns: 320px 320px 320px;
- height: 250px;
+    grid-template-columns: 260px 260px 260px;
+    height: 250px;
     gap: 30px;
-   
-    
-   
-    
+    width: 100%;
+
+
+
 }
 
+.desing-celular2 {
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+.desing-celular {
+    width: 100%;
+    border-radius: 80px;
+}
 
 .procedimentos-orçamento {
-margin-top: 50px;
+    margin-top: 50px;
     list-style: none;
     display: grid;
-    grid-template-columns: 220px 220px 220px 220px;
- height: 250px;
+    grid-template-columns: 180px 180px 180px 180px;
+    height: 250px;
     gap: 30px;
-   
+
 
 
 }
- img{
+
+img {
     width: 100%;
-   
-   
-    
- }
- 
 
 
- li {
-  
+
+}
+
+
+
+li {
+
     text-align: center;
     border: 2px solid #edf6f9;
     padding: 10px;
     border-radius: 15px;
- }
+}
 
 
 
-.pia{
+.pia {
     margin-bottom: 1100px;
 }
 
- .imgs-atendimentos{
+.imgs-atendimentos {
     margin-top: 20px;
-width: 350px;
-border-radius: 50%;
+    width: 350px;
+    border-radius: 50%;
 }
-figcaption{
+
+figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     margin: 20px;
 }
 
-article{
-    margin-bottom: 10px;
-    margin-top: 50px;
+article {
+    margin-bottom: 220px;
+
 }
 
 
 
-.tipo-de-serviços{
+.tipo-de-serviços {
 
     margin-top: 350px;
 }
-.tipo-de-serviços{
-    background: white;
-    
-   
-  
-    
 
-}
-.paragrafos-diferentes{
-    color: #03045e;
-    margin-left:80px ;
-    margin-right: 80px;
-    text-align: center;
-}
 
-.destaque, .efeito-de-botao{
+
+.destaque,
+.efeito-de-botao {
     font-size: 30px;
-   
-   
+
+
 }
 
 
-.link-estilo{
+.link-estilo {
     color: white;
     text-decoration: none;
- 
+
     font-size: 40px;
 }
 
-.whatsapp{
-height: 80px;
+.whatsapp {
+    height: 80px;
     position: fixed;
     right: 15px;
     bottom: 10px;
     display: flex;
-   justify-content: end;
-   width: 85px;
+    justify-content: end;
+    width: 85px;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 10px;
-    
+
 }
 
-.paragrafos-footer{
-    font-size: 22px;
+.paragrafos-footer {
+    font-size: 20px;
     color: white;
+    display: flex;
+    gap: 10px;
 }
 
 
-.pg-atendimento{
+.pg-atendimento {
     margin-top: 40px;
-    margin-left:80px ;
+    margin-left: 80px;
     margin-right: 80px;
     text-align: center;
     display: flex;
     gap: 30px;
     flex-direction: column;
+    margin-bottom: 45px;
 }
 
-.button-personalizado{
+.button-personalizado {
 
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    margin-bottom: 40px;
+
     padding: 10px;
     font-size: 18px;
     text-transform: uppercase;
     border: none;
     border-radius: 25px;
-color: white;
-cursor: pointer;
-
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    cursor: pointer;
+    background: #072ac8;
 }
-.button-personalizado:hover{
-  background:#00043a;
+
+.button-personalizado:hover {
+    background: #00043a;
 
 }
-.mapas{
+
+.mapas {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     gap: 50px;
     justify-content: center;
-   
+    margin-bottom: 30px;
+    margin-top: -180px;
+
+}
+
+@media (max-width:700px) {
+
+
+    section {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+
+
+    }
+
+    nav {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 0px;
+
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .desing-responsivo {
+        text-align: center;
+        align-items: center;
+        padding: 5px;
+        margin-top: 10px;
+        font-size: 21px;
+    }
+
+    .paragrafo-responsivo {
+        margin-top: -10px;
+        font-size: 20px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+
+        font-size: 18px;
+        margin-bottom: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+        width: 330px;
+
+    }
+
+    .principal {
+        font-size: 40px;
+
+    }
+
+    .pag1 {
+        margin-top: -20x;
+    }
+
+    .botao3 {
+        font-size: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+
+    button {
+        margin-top: -20px;
+    }
+
+    #serviços,
+    #atendimentos {
+
+        text-align: center;
+        margin-top: 0px;
+        font-size: 28px;
+
+    }
+
+    .responsivo {
+        display: none
+    }
+
+    img {
+        width: 100%;
+    }
+
+    ul {
+
+        display: grid;
+        grid-template-columns: 360px;
+        grid-template-rows: 580px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .processo-de-atendimento {
+        margin-top: 2320px;
+        margin-bottom: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+
+    figcaption {
+        font-size: 20px;
+    }
+
+
+    .procedimentos-orçamento {
+
+        grid-template-columns: 350px;
+        grid-template-rows: 320px;
+        font-size: 20px;
+        width: 100%;
+
+
+
+    }
+
+    .desing-celular2 {
+        width: 100%;
+        border-radius: 20px;
+
+
+    }
+
+    .desing-celular {
+        width: 100px;
+        border-radius: 50px;
+
+    }
+
+    .modificaçao-responsivo {
+        font-size: 18px;
+    }
+
+
+    footer {
+        display: none;
+    }
+
+    .artigo-principal {
+        display: none;
+    }
+
+
+    .whatsapp {
+        height: 80px;
+
+        right: 0px;
+        bottom: 10px;
+
+        width: 80px;
+    }
+
+
+    .desing-responsivo-atendimento {
+        font-size: 20px;
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .pg-atendimento {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -200px;
+
+    }
+
+    .button-personalizado {
+        display: none;
+    }
+
+    .mapas {
+        display: none;
+    }
+
 }
